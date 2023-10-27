@@ -1,0 +1,80 @@
+#card{
+    display: block;
+    margin: 164px auto;
+    width: 374px;
+    border-radius: 20px;
+    box-shadow: 0 30px 25px #f2f5f9;
+    font-family: 'Jost';
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.img img{
+    width: 100%;
+}
+
+.img img:last-child{
+    position: absolute;
+    top: 76%;
+    left: 0;
+}
+
+h1{
+    font-size: 24px;
+    margin: 10px 20px 0px;
+    width: 65%;
+    color: #111729;
+    line-height: 30px
+    /* font-weight: 300; */
+}
+
+p{
+    margin-left: 20px;
+    color: #677489;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: 20px;
+    gap: 1rem;
+}
+
+.user img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.user > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.user > div > h2{
+    font-size: 16px;
+    color: #111729;
+    margin: 0;
+}
+
+.user > div > p{
+    font-size: 14px;
+    margin: 0;
+}
+
+hr{
+    background-color: #677489;
+    height: 0.001px;
+}
